@@ -737,7 +737,7 @@ transform: translate(194px,10px);
 	background-color: #fff;
 	border:3px solid var(--main-color);
 	position: absolute;
-	right:-114px;
+	right:-124px;
 	border-radius: 50%;
 	top:20px
 }
@@ -753,11 +753,22 @@ transform: translate(194px,10px);
 	background-color: #fff;
 	border:3px solid var(--main-color);
 	position: absolute;
-	left:-114px;
+	left:-124px;
 	border-radius: 50%;
 	top:20px
 }
+@media(max-width:1024px){
+	.timeline .timeline-content .left:before{
+		right:-67px
+	}
+	
+	.timeline .timeline-content .right:before{
+		
+		left:-67px
+	}
 
+
+}
 .timeline .timeline-content .content{
 	padding: 20px;
 	background-color: #fff;
